@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
 header .header__container {
   padding: 49px 0px 40px 0px;
   display: flex;
@@ -49,4 +54,31 @@ header .header__container {
   border-radius: 10px;
   padding: 20px 35px;
   cursor: pointer;
+}
+
+.header__maintitle {
+  background-image: url(../img/header_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 717px;
+}
+
+.maintitle__titlebox {
+  padding-top: 197px;
+  padding-left: 107px;
+  width: 661px;
+}
+.maintitle__titlebox h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  padding: 0;
+  font-size: 72px;
+  color: #fff;
+}
+.maintitle__titlebox p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 19px;
+  color: #fff;
+  line-height: 25px;
+  font-weight: 400;
 }

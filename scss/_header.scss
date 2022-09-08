@@ -33,3 +33,33 @@ header {
   padding: 20px 35px;
  cursor: pointer;
 }
+
+.header__maintitle {
+  background-image: url(../img/header_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 717px;
+}
+
+.maintitle__titlebox {
+  padding-top: 197px;
+  padding-left: 107px;
+  width: 661px;
+  h1 {
+    @include dm_sans;
+    font-weight: 700;
+    padding: 0;
+    font-size: 72px;
+    //line-height: 94px;
+    color: #fff;
+  }
+
+  p {
+    @include dm_sans;
+    font-size: 19px;
+    color: #fff;
+    line-height: 25px;
+    font-weight: 400;
+  }
+}
+
