@@ -1,0 +1,35 @@
+header {
+  .header__container {
+    padding: 49px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.header__navbar {
+  .navbar__item {
+    margin-right: 74px;
+    .navbar__link {
+      color: #000;
+      @include dm_sans;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+}
+
+.header__btn {
+  @include dm_sans;
+  font-weight: 700;
+  background-color: $primary;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  border-radius: 10px;
+  padding: 20px 35px;
+ cursor: pointer;
+}

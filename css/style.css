@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=DM+Sans:wght@400;700&family=Montserrat&family=Roboto:wght@400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1303px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .header__container {
+  padding: 49px 0px 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navbar .navbar__item {
+  margin-right: 74px;
+}
+.header__navbar .navbar__item .navbar__link {
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.header__btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  background-color: #00BF69;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  border-radius: 10px;
+  padding: 20px 35px;
+  cursor: pointer;
+}

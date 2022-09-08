@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1303px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
